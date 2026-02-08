@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Mangatra",
+  "version": "1.0",
+  "permission":["storage" , "tabs"],
+  "action": {
+    "default_popup": "dist/popup.html"
+  },
+  "options_page": "dist/options.html",
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/content.js"]
+    }
+  ],
+  "permissions": ["storage", "activeTab", "scripting"]
+}

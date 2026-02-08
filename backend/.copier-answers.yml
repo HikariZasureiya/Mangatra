@@ -1,0 +1,7 @@
+_commit: 3e45c82
+_src_path: https://github.com/yanbo-huang/fastapi-backend-template
+db_password: fucktmsl69420
+db_user_name: mangatra
+include_precommit: false
+project_description: manga panel translation with ocr
+project_name: mangatra
